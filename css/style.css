@@ -25,7 +25,7 @@
     justify-content: center;
 }
 
-nav {
+.top-navbar {
     width: 100%;
     position: absolute;
     top: 0;
@@ -80,4 +80,52 @@ nav ul li a {
         width: auto;
         height: 100%;
     }
+}
+
+.main-navbar {
+    background-color: #f7dba7;
+    padding: 30px 25vw;
+}
+
+.main-navbar li {
+    width: auto;
+}
+
+.main-navbar ul li a {
+    background-color: #c57c57b6;
+    padding: 14px;
+    border-radius: 20px;
+    color: #fefefe;
+}
+
+.main-navbar ul li a:hover {
+    background-color: #c57c57;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.about {
+    background-color: #c57b57;
+}
+
+.thepark {
+    background-color: #5FCF80;
+}
+
+.animals {
+    background-color: #251605;
+}
+
+.contact {
+    background-color: #4e6e58;
+}
+
+footer {
+    background-color: #f7dba7;
 }

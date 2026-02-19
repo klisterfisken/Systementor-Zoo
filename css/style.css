@@ -26,12 +26,26 @@
 }
 
 .top-navbar {
+    background-color: #251605;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     /* 20px upptill och nedtill, och på sidorna 8% av parent */
     padding: 20px 8%;
+    animation: fade-in linear forwards;
+    animation-timeline: scroll(root);
+    animation-range-end: 300px;
+}
+
+@keyframes fade-in {
+    from {
+        background-color: #25160500;
+    }
+
+    to {
+        background-color: #251605a9;
+    }
 }
 
 nav ul {
@@ -128,4 +142,5 @@ footer {
 
 footer {
     background-color: #f7dba7;
+    height: 2000px;
 }

@@ -134,6 +134,20 @@ footer {
 
 .animals {
     background-color: #251605;
+    padding: 20px 25%;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.animals article {
+    flex: 0 0 5em;
+    border: 1px solid red;
+    min-height: 360px;
+    min-width: 240px;
+    margin: 15px;
 }
 
 .contact {

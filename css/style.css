@@ -111,17 +111,17 @@ h3 {
 }
 
 .main-navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     background-color: #f7dba7;
     padding: 30px 25vw;
-}
-
-.main-navbar li {
-    width: auto;
 }
 
 .main-navbar ul li a {
     background-color: #4e6e58b6;
     padding: 14px;
+    margin: 0px 10px;
     border-radius: 20px;
 }
 

@@ -13,7 +13,8 @@
     <div class="hero">
 
         <video autoplay muted loop class="bg-video">
-            <source src="video/7563_Monkey_Macaque_1920x1080.mp4" type="video/mp4">
+            <source src="video/7563_Monkey_Macaque_1920x1080.mp4" type="video/mp4"
+                aria-label="Close-up slow motion video of a monkey chewing">
         </video>
 
         <nav class="top-navbar">
@@ -38,8 +39,20 @@
         </ul>
     </nav>
 
-    <section class="about">
-
+    <section class="zoomap">
+        <div class="map-section">
+            <img src="images/zoomap.png" alt="Map over the zoo">
+            <h2 class="map-title">Besök parken</h2>
+            <div class="map-index">
+                <ol class="rounded-list">
+                    <li>Giraff</li>
+                    <li>Struts</li>
+                    <li>Grizzlybjörn</li>
+                    <li>Puma</li>
+                    <li>Sjölejon</li>
+                    <li>Dovhjort</li>
+                </ol>
+            </div>
     </section>
 
     <section class="thepark">
@@ -58,8 +71,34 @@
     </section>
 
     <section class="contact">
-        <table>
-
+        <h3>Följ allt som händer</h3>
+        <p>Prenumerera på vårt nyhetsbrev</p>
+        <table class="subscribe">
+            <label for="fname" hidden="true">Förnamn</label>
+            <input type="text" id="fname" name="Förnamn" placeholder="Förnamn">
+            <label for="lname" hidden="true">Efternamn</label>
+            <input type="text" id="lname" name="Efternamn" placeholder="Efternamn"><br>
+            <label for="email" hidden="true">Epost</label>
+            <input type="text" id="email" name="Epost" placeholder="Epost"><br>
+            <label for="day" size="5" hidden="true">Dag</label>
+            <input type="text" id="day" name="Dag" placeholder="Dag">
+            <select name="month">
+                <option value="Månad">Månad</option>
+                <option value="Januari">Januari</option>
+                <option value="Januari">Februari</option>
+                <option value="Januari">Mars</option>
+                <option value="Januari">April</option>
+                <option value="Januari">Maj</option>
+                <option value="Januari">Juni</option>
+                <option value="Januari">Juli</option>
+                <option value="Januari">Augusti</option>
+                <option value="Januari">September</option>
+                <option value="Januari">Oktober</option>
+                <option value="Januari">November</option>
+                <option value="Januari">December</option>
+            </select>
+            <label for="year" size="5" hidden="true">År</label>
+            <input type="text" id="year" name="År" placeholder="År">
         </table>
     </section>
 

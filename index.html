@@ -60,46 +60,104 @@
     </section>
 
     <section class="animals">
+        <h3>Våra djur</h3>
         <div class="carousel">
-            <article>Giraff</article>
-            <article>Varg</article>
-            <article>Pyton</article>
-            <article>Lodjur</article>
-            <article>Noshörning</article>
-            <article>Grizzly</article>
+            <article>
+                <div class="img-container">
+                    <img src="images/giraffe.jpg" alt="Giraffe depicted from neck up">
+                </div>
+                <p>Giraff</p>
+                <p>Text om giraffen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
+            <article>
+                <div class="img-container">
+                    <img src="images/ostrich.jpg" alt="Ostrich depicted from neck up">
+                </div>
+                <p>Struts</p>
+                <p>Text om strutsen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
+            <article>
+                <div class="img-container">
+                    <img src="images/grizzly-bear.jpg" alt="Image of grizzly bear walking">
+                </div>
+                <p>Grizzlybjörn</p>
+                <p>Text om grizzlybjörnen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis
+                    repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
+            <article>
+                <div class="img-container">
+                    <img src="images/puma.jpg" alt="Image of puma on a large rock">
+                </div>
+                <p>Puma</p>
+                <p>Text om puman. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis
+                    repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
+            <article>
+                <div class="img-container">
+                    <img src="images/sea-lions.jpg" alt="Image of sea lions sun bathing">
+                </div>
+                <p>Sjölejon</p>
+                <p>Text om sjölejonen. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis
+                    repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
+            <article>
+                <div class="img-container">
+                    <img src="images/deer.jpg" alt="Close-up of deer looking right into camera">
+                </div>
+                <p>Dovhjort</p>
+                <p>Text om dovhjortarna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis
+                    repellat
+                    saepe quis cum iusto sapiente sunt reprehenderit alias repudiandae.</p>
+            </article>
         </div>
     </section>
 
     <section class="contact">
-        <h3>Följ allt som händer</h3>
-        <p>Prenumerera på vårt nyhetsbrev</p>
-        <table class="subscribe">
-            <label for="fname" hidden="true">Förnamn</label>
-            <input type="text" id="fname" name="Förnamn" placeholder="Förnamn">
-            <label for="lname" hidden="true">Efternamn</label>
-            <input type="text" id="lname" name="Efternamn" placeholder="Efternamn"><br>
-            <label for="email" hidden="true">Epost</label>
-            <input type="text" id="email" name="Epost" placeholder="Epost"><br>
-            <label for="day" size="5" hidden="true">Dag</label>
-            <input type="text" id="day" name="Dag" placeholder="Dag">
-            <select name="month">
-                <option value="Månad">Månad</option>
-                <option value="Januari">Januari</option>
-                <option value="Januari">Februari</option>
-                <option value="Januari">Mars</option>
-                <option value="Januari">April</option>
-                <option value="Januari">Maj</option>
-                <option value="Januari">Juni</option>
-                <option value="Januari">Juli</option>
-                <option value="Januari">Augusti</option>
-                <option value="Januari">September</option>
-                <option value="Januari">Oktober</option>
-                <option value="Januari">November</option>
-                <option value="Januari">December</option>
-            </select>
-            <label for="year" size="5" hidden="true">År</label>
-            <input type="text" id="year" name="År" placeholder="År">
-        </table>
+        <div class="giraffe-wrapper"><img src="images/giraffe-hi.png" class="img-left"
+                alt="Image of giraffe with its tongue out"></div>
+        <div class="register">
+            <h3>Följ allt som händer</h3>
+            <p>Prenumerera på vårt nyhetsbrev</p>
+            <form action="https://formshow.systementor.se/" class="subscribe">
+                <div class="block-input">
+                    <label for="fname" hidden="true">Förnamn</label>
+                    <input type="text" id="fname" name="Förnamn" placeholder="Förnamn">
+                    <label for="lname" hidden="true">Efternamn</label>
+                    <input type="text" id="lname" name="Efternamn" placeholder="Efternamn">
+                    <label for="email" hidden="true">Epost</label>
+                    <input type="text" id="email" name="Epost" placeholder="Epost">
+                </div>
+                <div class="inline-input">
+                    <label for="day" size="5" hidden="true">Dag</label>
+                    <input type="text" id="day" name="Dag" placeholder="Dag">
+                    <select name="month">
+                        <option value="Månad" class="default-option">Månad</option>
+                        <option value="Januari">Januari</option>
+                        <option value="Februari">Februari</option>
+                        <option value="Mars">Mars</option>
+                        <option value="April">April</option>
+                        <option value="Maj">Maj</option>
+                        <option value="Juni">Juni</option>
+                        <option value="Juli">Juli</option>
+                        <option value="Augusti">Augusti</option>
+                        <option value="September">September</option>
+                        <option value="Oktober">Oktober</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <label for="year" size="5" hidden="true">År</label>
+                    <input type="text" id="year" name="År" placeholder="År">
+                </div>
+                <input type="submit" value="REGISTRERA">
+            </form>
+        </div>
+        <div class="giraffe-wrapper"><img src="images/giraffe-hello.png" class="img-right" alt="Image of giraffe head">
+        </div>
     </section>
 
     <footer>

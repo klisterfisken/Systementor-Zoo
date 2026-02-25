@@ -13,8 +13,16 @@ https://coolors.co/251605-c57b57-4e6e58-f7dba7-5fcf80 */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+body,
+a {
     font-family: "Poppins", sans-serif;
     color: #fefefe;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 .hero {
@@ -212,30 +220,103 @@ footer {
 }
 
 .animals {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #251605;
-    padding: 20px 25%;
+    padding: 50px 25% 80px;
 }
 
 .carousel {
     display: flex;
     overflow-x: auto;
+    width: 1000px;
 }
 
 .animals article {
     flex: 0 0 5em;
-    border: 1px solid red;
-    min-height: 360px;
-    min-width: 240px;
+    /* border: 1px solid red; */
+    width: 300px;
     margin: 15px;
 }
 
+.img-container {
+    width: 300px;
+    height: 300px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .contact {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    height: 400px;
     background-color: #4e6e58;
     text-align: center;
+    gap: 20px;
+}
+
+.contact img {
+    max-height: 380px;
+}
+
+.register {
+    align-self: center;
 }
 
 .subscribe {
     display: flex;
+    flex-direction: column;
+    color: #251605;
+    font-family: "Poppins", sans-serif;
+}
+
+.default-option {
+    color: #2516056e;
+}
+
+input,
+select {
+    border: 0px;
+    border-radius: 20px;
+    background-color: #fefefe;
+    padding: 10px;
+    margin: 5px;
+}
+
+.block-input input {
+    width: 400px;
+}
+
+.inline-input input {
+    width: 100px;
+}
+
+select {
+    width: 182px;
+    margin: 0px;
+}
+
+.block-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    background-color: #251605;
+    color: #fefefe;
+    width: 182px;
+    align-self: center;
+    margin: 20px;
+    font-weight: bold;
 }
 
 footer {

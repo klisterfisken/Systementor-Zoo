@@ -17,7 +17,8 @@ https://coolors.co/251605-c57b57-4e6e58-f7dba7-5fcf80 */
 
 body,
 a {
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
     color: #fefefe;
 }
 
@@ -242,7 +243,7 @@ footer {
 }
 
 .carousel::-webkit-scrollbar-track {
-    background-color: #f7dba76e;
+    background-color: #fefefe2f;
     border-radius: 10px;
 }
 
@@ -256,19 +257,62 @@ footer {
     width: 300px;
     margin: 15px;
     scroll-snap-align: start;
+    background-color: #fefefe2f;
+    border-radius: 15px;
 }
 
 .img-container {
     width: 300px;
     height: 300px;
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
 }
 
 .img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.animal-text {
+    padding: 10px 25px 15px;
+}
+
+.table-of-animals {
+    display: flex;
+    justify-content: center;
+    background-color: #fefefe2f;
+    border-radius: 15px;
+    width: 950px;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #fefefe4d;
+}
+
+th:nth-child(2) {
+    background-color: #4d4133;
+    padding: 0px;
+}
+
+td img {
+    height: 1em;
+    width: auto;
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 .contact {
@@ -345,4 +389,18 @@ input[type=submit]:hover {
 footer {
     background-color: #f7dba7;
     height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer div {
+    width: 1000px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    border: 0px;
+    border-radius: 30px;
 }
